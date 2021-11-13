@@ -1,0 +1,152 @@
+/* ==UserStyle==
+@name         andromeda
+@description  🌌 andromeda is a minimal space-inspired theme for wikipedia
+@namespace    https://github.com/azure-moon/andromeda
+@homepageURL  https://github.com/azure-moon/andromeda
+@supportURL   https://github.com/azure-moon/andromeda/issues
+@updateURL    https://github.com/azure-mooh/andromeda/raw/main/andromeda.user.css
+@author       sheep <me@sheepdev.xyz> (https://github.com/sheeepdev)
+@version      2.1.0
+@license      CC-BY-4.0
+==/UserStyle== */
+
+:root {
+    --bg: #161616;
+    --bg-light: #252525;
+    --bg-lighter: #303030;
+    --bg-transparent: #2e3340f1;
+    --accent: #3281ea;
+    --accent-light: #0284e8;
+    --accent-lighter: #02a3e8;
+    --accent-lightest: #02bbe8;
+    --text-color: #d8dee9;
+    --white: #d4d7db;
+    --green: #a3be8c;
+    --red: #B10C0C;
+}
+
+body {
+    background: var(--bg);
+}
+
+.mw-wiki-logo {
+    background-image: url(https://i.imgur.com/n3ePxIn.png)
+}
+
+#mw-page-base {
+    background: var(--bg-light)
+}
+
+.vector-user-menu-legacy .vector-menu-content-list {
+    display: none;
+}
+
+.vector-menu-portal .vector-menu-content li a:visited {
+    color: var(--accent-light)
+}
+
+.vector-menu-portal .vector-menu-content li a {
+    color: var(--accent)
+}
+
+.vector-menu-portal h3 {
+    color: var(--text-color);
+}
+
+.vector-menu-portal h3 {
+    background-image: none;
+}
+
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3, .vector-menu-tabs .selected {
+    background: var(--bg-light)
+}
+
+#left-navigation, .vector-menu-tabs ul {
+    display: none
+}
+
+.mw-body, .parsoid-body {
+    background: var(--bg);
+    color: var(--text-color);
+    border: none;
+}
+
+.mw-parser-output #mp-topbanner, .mw-parser-output #mp-left, .mw-parser-output #mp-right, .mw-parser-output #mp-lower, .mw-parser-output #mp-other-lower {
+    background: var(--bg-light);
+    color: var(--text-color);
+    border-radius: 20px;
+    border: none;
+}
+
+.mw-parser-output #mp-left .mp-h2, .mw-parser-output #mp-right .mp-h2, .mw-parser-output #mp-other-lower .mp-h2, .mw-parser-output #mp-tfp-h2 {
+    background: var(--bg-light);
+    color: var(--text-color);
+    border: none;
+}
+
+a:visited, .mw-parser-output a.extiw:visited, .mw-parser-output a.external:visited {
+    color: var(--accent-light)
+}
+
+a {
+    color: var(--accent)
+}
+
+.mw-parser-output a.external, .mw-parser-output a.extiw, .mw-parser-output a.extiw:active, .toctogglelabel {
+    color: var(--accent)
+}
+
+.vector-search-box-input {
+    background: var(--bg-lighter);
+    border-radius: 20px;
+    border: none;
+}
+
+.searchButton[name="go"] {
+    background: no-repeat center / 1.23076923em url(https://i.imgur.com/hvNuMeo.png)
+}
+
+.vector-search-box-input {
+    color: var(--text-color)
+}
+
+.infobox, .toc, .toccolours, .wikitable, .wikitable > tr > th, .wikitable > * > tr > th, .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td, div.thumbinner, .thumbimage, .suggestions-results, .mwe-popups, .mwe-popups .mwe-popups-container {
+    background: var(--bg-light);
+    color: var(--text-color);
+    border-radius: 20px;
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    border: none;
+}
+
+.mw-parser-output .sidebar, .navbox, .mbox-small.plainlinks.sistersitebox, .catlinks, #footer-icons, #contentSub, #contentSub2, #p-lang, .vector-menu-portal, .mw-body .mw-indicators, .mw-ui-icon.mw-ui-icon-element.mw-ui-icon-small.mw-ui-icon-settings, .mw-collapsible.mw-made-collapsible.mw-collapsed {
+    display: none;
+}
+
+.mw-footer li, .suggestions-result, .mwe-popups .mwe-popups-extract {
+    color: var(--text-color)
+}
+
+.mw-body {
+    margin-right: 170px;
+}
+
+.suggestions-special {
+    display: none !important;
+}
+
+th[style*=background-color] {
+    background: var(--bg-light) !important;
+}
+
+.suggestions-result-current {
+    background: var(--bg-lighter);
+    border-radius: 20px;
+}
+
+.mwe-popups .mwe-popups-extract[dir="ltr"]::after {
+    background-image: none;
+}
