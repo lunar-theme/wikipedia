@@ -122,11 +122,11 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
 }
 
-.mw-parser-output .sidebar, .navbox, .mbox-small.plainlinks.sistersitebox, .catlinks, #footer-icons, #contentSub, #contentSub2, #p-lang, .vector-menu-portal, .mw-body .mw-indicators, .mw-ui-icon.mw-ui-icon-element.mw-ui-icon-small.mw-ui-icon-settings, .mw-collapsible.mw-made-collapsible.mw-collapsed {
+.mw-parser-output .sidebar, .navbox, .mbox-small.plainlinks.sistersitebox, .catlinks, #footer-icons, #contentSub, #contentSub2, #p-lang, .vector-menu-portal, .mw-body .mw-indicators, .mw-ui-icon.mw-ui-icon-element.mw-ui-icon-small.mw-ui-icon-settings, .mw-collapsible.mw-made-collapsible.mw-collapsed, .footer-sidebar.app-badges, .central-textlogo-wrapper {
     display: none;
 }
 
-.mw-footer li, .suggestions-result, .mwe-popups .mwe-popups-extract {
+.mw-footer li, .suggestions-result, .mwe-popups .mwe-popups-extract, .tocnumber, .central-featured-lang small, .footer-sidebar-text, .site-license, .other-project-tagline {
     color: var(--text-color)
 }
 
@@ -149,4 +149,24 @@ th[style*=background-color] {
 
 .mwe-popups .mwe-popups-extract[dir="ltr"]::after {
     background-image: none;
+}
+
+hr {
+    border: none;
+}
+
+.central-featured-logo {
+    top: 65px
+}
+
+.lang-list-border {
+    background: var(--bg);
+}
+
+.lang-list-button {
+    background: var(--bg-light);
+    color: var(--text-color);
+    border: none;
+    outline: 1.6rem solid var(--bg-light);
+    }
 }
