@@ -11,7 +11,7 @@
 
 ## 💻 Installation
 
-[Click here to install andromeda](https://github.com/azure-moon/andromeda/raw/main/andromeda.user.css)
+[Click here to install andromeda](https://github.com/lunar-theme/andromeda/raw/main/andromeda.user.css)
 
 Before installation make sure you aren't using any extensions or different themes in wikipedia.
 
