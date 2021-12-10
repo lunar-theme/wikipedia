@@ -10,6 +10,8 @@
 @license      CC-BY-4.0
 ==/UserStyle== */
 
+@-moz-document domain('wikipedia.org') {
+
 :root {
     --bg: #161616;
     --bg-light: #252525;
