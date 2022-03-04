@@ -2,7 +2,7 @@
 
 ![[Banner]](https://socialify.git.ci/lunar-theme/andromeda/image?description=1&descriptionEditable=%F0%9F%8C%8C%20andromeda%20is%20minimal%20space-inspired%20theme%20for%20wikipedia&font=Raleway&language=1&logo=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F8%2F80%2FWikipedia-logo-v2.svg%2F1024px-Wikipedia-logo-v2.svg.png&name=1&owner=1&theme=Dark)
 
-## 🖼️ Preview
+## 🖼️  Gallery
 
 ![Preview](./img/preview.png)
 
