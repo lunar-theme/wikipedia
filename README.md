@@ -14,7 +14,7 @@
 
 ## 💻 Installation
 
-[Click here to install wikipedia](https://github.com/lunar-theme/wikipedia/raw/main/wikipedia.user.css)
+<a href="https://raw.githubusercontent.com/lunar-theme/wikipedia/main/wikipedia.user.css"><img src="https://img.shields.io/badge/Install%20with-Stylus-%233281ea" alt="Install with Stylus"/></a>
 
 Before installation make sure you aren't using any extensions or different themes in wikipedia.
 
