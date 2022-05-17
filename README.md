@@ -7,7 +7,7 @@
 
 ## 🖼️  Gallery
 
-![Preview](./img/preview.png)
+![Preview](./assets/preview.png)
 
 ## ❗ Prerequisites
 [Stylus browser extension](https://github.com/openstyles/stylus#releases)
