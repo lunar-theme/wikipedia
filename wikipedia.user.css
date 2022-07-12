@@ -27,6 +27,10 @@
     --red: #B10C0C;
 }
 
+html {
+    color-scheme: dark;
+}
+    
 body {
     background: var(--bg);
 }
